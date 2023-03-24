@@ -1,0 +1,12 @@
+Now we are going to test a function 'test-stat'	.	.
+This test должen покр осн возм част кода.
+	Напр, верно счит абз(если они \t)
+\t(и  \t не долж раб), т.е в этом текс лишь 1 абз.
+So, in this text there are #!!@#$!$@!$!$@$1 a 
+    должн ы бы про.
+
+
+
+
+Итого, рез, кот дол will give the functioн эs:             wверный?
+
