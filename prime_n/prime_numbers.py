@@ -3,16 +3,14 @@
 """
 __author__ = 'Андрей Помошников'
 
-
 from math import sqrt, ceil, trunc
 
 
 def prime_numbers(low, high):
-    if low > high or high < 2 or low < 0:
+    if low > high or high < 2 or low < 0 or high - low == 0:
         return []
     high_sqrt = trunc(sqrt(high))
     MAX_SQRT = high_sqrt
-    S = 10 ** 5
     nprimes = [False] * (MAX_SQRT + 1)
     primes = []
 
@@ -35,7 +33,6 @@ def prime_numbers(low, high):
     length = len(result)
     for prime in primes:
         mod = low_n2 % prime
-        ind = 0
         if mod == 0:
             ind = 0
         elif (low_n2 + prime - mod) % 2 == 0:
