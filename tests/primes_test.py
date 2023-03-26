@@ -6,6 +6,10 @@ class MyTestCase(TestCase):
     def test_high_less_low(self):
         self.assertListEqual(prime_numbers(1, 0), [])
 
+    def test_incorrect_val(self):
+        self.assertListEqual(prime_numbers(1.7, 2), [])
+        self.assertListEqual(prime_numbers(1, "10"), [])
+
     def test_negative_values(self):
         self.assertListEqual(prime_numbers(-1, 10), [])
 

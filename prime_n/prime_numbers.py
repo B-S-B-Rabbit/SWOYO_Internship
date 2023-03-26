@@ -6,7 +6,9 @@ __author__ = 'Андрей Помошников'
 from math import sqrt, ceil, trunc
 
 
-def prime_numbers(low, high):
+def prime_numbers(low: int, high: int) -> list:
+    if not (isinstance(low, int) and isinstance(high, int)):
+        return []
     if low > high or high < 2 or low < 0 or high - low == 0:
         return []
     high_sqrt = trunc(sqrt(high))
