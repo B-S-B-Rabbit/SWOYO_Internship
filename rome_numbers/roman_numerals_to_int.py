@@ -1,6 +1,11 @@
+"""
+Модуль roman_numerals_to_int содержит функцию, реализующую перевод чисел из римской нотации в целочисленную десятичную.
+"""
+__author__ = 'Андрей Помошников'
+
+
 from re import match
 from typing import TypeVar
-
 
 int_or_none = TypeVar('int_or_none', int, None)
 
@@ -36,8 +41,3 @@ def roman_numerals_to_int(roman_numeral: str) -> int_or_none:
         prev_val = curr_val
 
     return result
-
-
-if __name__ == "__main__":
-    st = input()
-    print(roman_numerals_to_int(st))
