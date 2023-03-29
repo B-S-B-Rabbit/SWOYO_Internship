@@ -3,7 +3,7 @@
 Implementation of 3 functions: prime numbers in the range, text statistics and translation from Roman numbers to Arabic
 with a test code from the unittests module to them.
 
-## Table of contents
+## Headline
 
 1. [prime_n](#prime_n)
 2. [text_statistic](#text_statistic)
@@ -18,7 +18,7 @@ ____
   for this task.
   
 ____
-[:arrow_up:Headline](#Table-of-contents)
+[:arrow_up:Headline](#Headline)
 
 ## text_statistic
 
@@ -31,7 +31,7 @@ ____
   - The key is bilingual_word_amount, the value is the number of words using letters from both alphabets
 
 ____
-[:arrow_up:Headline](#Table-of-contents)
+[:arrow_up:Headline](#Headline)
 
 ## rome_numbers
 
@@ -40,7 +40,7 @@ ____
 - A directory containing a function that converts a number from Roman notation to decimal integer notation.
 
 ____
-[:arrow_up:Headline](#Table-of-contents)
+[:arrow_up:Headline](#Headline)
 
 ## tests
 
@@ -49,4 +49,4 @@ ____
 - A directory containing scripts with code for testing all the functions described above.
 
 ____
-[:arrow_up:Headline](#Table-of-contents)
+[:arrow_up:Headline](#Headline)
