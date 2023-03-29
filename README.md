@@ -25,10 +25,10 @@ ____
 ____
 
 - A directory containing a function that returns a dictionary with the following contents, based on the input file:
-  • Key - letter of the alphabet, value – tuple (frequency of use of the letter, the proportion of the word with the letter)
-  • Key – word_amount, value – the number of words in the text
-  • The key is paragraph_amount, the value is the number of paragraphs in the text
-  • The key is bilingual_word_amount, the value is the number of words using letters from both alphabets
+  - Key - letter of the alphabet, value – tuple (frequency of use of the letter, the proportion of the word with the letter)
+  - Key – word_amount, value – the number of words in the text
+  - The key is paragraph_amount, the value is the number of paragraphs in the text
+  - The key is bilingual_word_amount, the value is the number of words using letters from both alphabets
 
 ____
 [:arrow_up:Headline](#Headline)
